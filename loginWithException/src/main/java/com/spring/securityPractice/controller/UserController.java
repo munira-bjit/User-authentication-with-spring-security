@@ -28,11 +28,6 @@ public class UserController {
         return "Hello2";
     }
 
-//    @PostMapping("/registration")
-//    public ResponseEntity<UserDto> register (@RequestBody UserDto userDto) throws Exception {
-//        return new ResponseEntity<>(userService.createUser(userDto), HttpStatus.CREATED);
-//    }
-
     @PostMapping("/registration")
     public ResponseEntity<?> register (@RequestBody UserDto userDto) {
         try {
