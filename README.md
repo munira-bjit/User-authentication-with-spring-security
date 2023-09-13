@@ -16,7 +16,7 @@ user registration, authentication, role-based authorization and some sample endp
 ## Endpoints
 
 - `/users/registration`: Endpoint for user registration.
-- - `/signin`: Endpoint for user authentication.
+- `/signin`: Endpoint for user authentication.
 - `/users/hello`: A sample endpoint accessible to all authenticated users.
 - `/users/hello2`: Another sample endpoint accessible to all authenticated users.
 - `/users/**`: Additional user and admin-specific endpoints, protected by role-based authorization.
